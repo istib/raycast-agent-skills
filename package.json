@@ -1,0 +1,34 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "agent-skills",
+  "title": "Agent Skills",
+  "description": "Search local skills and apply them to copied text.",
+  "icon": "assets/icon.png",
+  "author": "istib",
+  "license": "MIT",
+  "categories": [
+    "Productivity",
+    "Developer Tools"
+  ],
+  "commands": [
+    {
+      "name": "apply-agent-skill",
+      "title": "Apply Agent Skill",
+      "description": "Fuzzy-search local skills and apply one to clipboard text",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.104.12",
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.0",
+    "@types/react": "^19.2.14",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop"
+  }
+}
