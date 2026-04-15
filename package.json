@@ -3,12 +3,22 @@
   "name": "agent-skills",
   "title": "Agent Skills",
   "description": "Search local skills and apply them to copied text.",
-  "icon": "assets/icon.png",
+  "icon": "icon.png",
   "author": "istib",
   "license": "MIT",
+  "platforms": [
+    "macOS"
+  ],
   "categories": [
     "Productivity",
     "Developer Tools"
+  ],
+  "keywords": [
+    "skills",
+    "agents",
+    "prompts",
+    "clipboard",
+    "ai"
   ],
   "commands": [
     {
@@ -29,6 +39,15 @@
   },
   "scripts": {
     "build": "ray build -e dist",
-    "dev": "ray develop"
+    "dev": "ray develop",
+    "publish": "npx ray publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istib/raycast-agent-skills.git"
+  },
+  "homepage": "https://github.com/istib/raycast-agent-skills",
+  "bugs": {
+    "url": "https://github.com/istib/raycast-agent-skills/issues"
   }
 }

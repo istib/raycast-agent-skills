@@ -1,6 +1,6 @@
 # Agent Skills for Raycast
 
-Search your local agent skills and apply one to the text currently in your clipboard.
+Search your local agent skills and apply one to the text currently in your clipboard from [Raycast](https://raycast.com), the macOS productivity app.
 
 This extension scans `~/.agents/skills` for `SKILL.md` files, lets you fuzzy-search them in Raycast, shows the selected skill's description, and runs the skill instructions against clipboard text using Raycast AI.
 
@@ -15,7 +15,7 @@ This extension scans `~/.agents/skills` for `SKILL.md` files, lets you fuzzy-sea
 
 ## Requirements
 
-- Raycast with AI access enabled
+- [Raycast](https://raycast.com) for macOS with AI access enabled
 - A local skills directory at `~/.agents/skills`
 - Skills stored as folders containing a `SKILL.md` file
 
