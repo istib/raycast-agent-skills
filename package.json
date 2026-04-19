@@ -26,12 +26,6 @@
       "title": "Apply Agent Skill",
       "description": "Fuzzy-search local skills or run a free-form prompt on clipboard text",
       "mode": "view"
-    },
-    {
-      "name": "sync-drafts-skills",
-      "title": "Sync Drafts Skills",
-      "description": "Sync ~/Skills into the Drafts picker and runtime scripts",
-      "mode": "view"
     }
   ],
   "dependencies": {
@@ -46,8 +40,7 @@
   "scripts": {
     "build": "ray build -e dist",
     "dev": "ray develop",
-    "publish": "npx ray publish",
-    "sync:drafts": "node scripts/sync-drafts-skills.mjs"
+    "publish": "npx ray publish"
   },
   "repository": {
     "type": "git",
